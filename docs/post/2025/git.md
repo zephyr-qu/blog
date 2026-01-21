@@ -48,6 +48,24 @@ git config --global --list
 git config --local --list
 ```
 
+::: warning 注意
+
+**Git  大小写问题**
+
+Git 默认不区分大小写，在某些环境下可能不方便，要启动大小写区分
+
+```bash
+# 查看大小写配置
+git config --get core.ignorecase
+
+# 关闭 忽略大小写的配置
+git config core.ignorecase false
+```
+
+:::
+
+
+
 ### 远程连接 
 
 > 不连接咋个玩嘛🤪

@@ -84,10 +84,11 @@ const projects = [
 .project-grid {
   display: grid;
   gap: var(--card-gap);
-  margin: 0 0 2rem 0;
+
+  margin: 2rem auto;
+  // margin-top: 2rem;
   /* 防止超宽屏被无限拉伸，整体居中 */
   max-width: 1440px;
-
 
   /* 默认 1 列 */
   grid-template-columns: 1fr;
