@@ -3,6 +3,11 @@ import type { DefaultTheme } from 'vitepress'
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '博文', link: '/post/', activeMatch: '^/post/' },
   { text: '周刊', link: '/weekly/', activeMatch: '^/weekly/' },
+  {
+    text: '设计模式',
+    link: '/design-pattern/',
+    activeMatch: '^/design-pattern/',
+  },
   // {
   //   text: '编程',
   //   items: [
@@ -11,11 +16,11 @@ export const nav: DefaultTheme.Config['nav'] = [
   //       link: '/design-pattern/',
   //       activeMatch: '^/design-pattern/',
   //     },
-  //     { text: '诗与周刊', link: '/weekly/', activeMatch: '^/weekly/' },
-  //     // { text: '文档', link: '/base/', activeMatch: '^/base/' },
-  //     // { text: '源码', link: '/code/', activeMatch: '^/code/' },
-  //     // { text: '力扣', link: '/leetcode/', activeMatch: '^/leetcode/' },
-  //     // { text: 'AI', link: '/ai/', activeMatch: '^/ai/' },
+  // { text: '诗与周刊', link: '/weekly/', activeMatch: '^/weekly/' },
+  // { text: '文档', link: '/base/', activeMatch: '^/base/' },
+  // { text: '源码', link: '/code/', activeMatch: '^/code/' },
+  // { text: '力扣', link: '/leetcode/', activeMatch: '^/leetcode/' },
+  // { text: 'AI', link: '/ai/', activeMatch: '^/ai/' },
   //   ],
   // },
   // { text: '笔记', link: '/note/', activeMatch: '^/note/' },

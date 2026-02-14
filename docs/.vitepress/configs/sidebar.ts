@@ -11,14 +11,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = generateSidebar([
     sortMenusByFrontmatterOrder: true,
     useTitleFromFrontmatter: true,
   },
-  // {
-  //   documentRootPath: '/docs',
-  //   scanStartPath: 'design-pattern',
-  //   resolvePath: '/design-pattern/',
-  //   excludePattern: ['img'],
-  //   // sortMenusByFrontmatterOrder: true,
-  //   useTitleFromFrontmatter: true,
-  // },
+  {
+    documentRootPath: '/docs',
+    scanStartPath: 'design-pattern',
+    resolvePath: '/design-pattern/',
+    excludePattern: ['img'],
+    // sortMenusByFrontmatterOrder: true,
+    useTitleFromFrontmatter: true,
+  },
   {
     documentRootPath: '/docs',
     scanStartPath: 'weekly',

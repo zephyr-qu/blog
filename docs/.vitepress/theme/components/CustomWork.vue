@@ -76,6 +76,19 @@ const projects = [
     },
     tags: ['Dart', 'Flutter'],
   },
+  {
+    name: '自由视频-FreePlayer',
+    desc: '一个用于入阶的 Flutter 项目，实现了一个免费的视频播放器。',
+    badge: {
+      type: 'tip',
+      text: 'v1.0.0-alpha',
+    },
+    links: {
+      icon: 'gitee',
+      url: 'https://gitee.com/zs2084035767/free_player_app',
+    },
+    tags: ['Dart', 'Flutter', 'Signal.dart'],
+  },
 ]
 </script>
 
