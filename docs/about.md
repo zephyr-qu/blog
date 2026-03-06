@@ -2,7 +2,7 @@
 
 ### 嗨！👋🏻，我是子十
 
-我是一位 ~~在读大学生~~ ，`<Developer/>` 毕业生。<span id="me">困于山林，难攀高峰。</span>
+一位 ~~在读大学生~~， ~~毕业生~~，后端开发，`<Developer/>`。<span id="me">困于山林，难攀高峰。</span>
 
 <script setup lang="ts">
 import { onMounted } from 'vue'
@@ -21,13 +21,7 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
   .deleteAll(30) 
   .pauseFor(1000) 
   .start() 
-})
- 
-
-</script>
-
-
-
+})</script>
 
 
 > 虽然不喜欢贴标签，但这里还是贴上吧，为了方便他人快速了解我。**或者你不必了解我**🤔。
@@ -35,9 +29,10 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 <Badge type="tip" text="INTJ" />
 <Badge type="danger" text="PESSIMIST" />
 <Badge type="warning" text="NARUTO" />
-<Badge type="tip" text="余华&史铁生" />
-<Badge type="danger" text="思考&好奇&探索" />
-<Badge type="warning" text="阅读&写作&听歌&编程&骑行&番剧" />
+<Badge type="tip" text="BORING" />
+<Badge type="danger" text="余华&史铁生" />
+<Badge type="warning" text="思考&好奇&探索" />
+<Badge type="tip" text="阅读&写作&听歌&编程&骑行&番剧" />
 
 
 
@@ -88,7 +83,7 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 <Badge type="info" text="c" />
 <Badge type="info" text="python" />
 <Badge type="info" text="java" />
-<Badge type="info" text="rust" />
+<Badge type="info" text="golang" />
 <Badge type="info" text="springboot" />
 <Badge type="info" text="springcloud" />
 <Badge type="info" text="flask" />
@@ -109,6 +104,7 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 <Badge type="info" text="git" />
 <Badge type="info" text="md" />
 <Badge type="info" text="linux" />
+<Badge type="info" text="jenkins" />
 <Badge type="info" text="docker" />
 <Badge type="info" text="figma" />
 <Badge type="info" text="nginx" />
@@ -121,9 +117,12 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 
 > 梦想甚远，希望渺茫。
 
-小时候梦想是<span style="filter: blur(4px);user-select:none;">做出一部堪比《火影忍者》的动漫</span>
+小时候梦想是<span style="filter: blur(4px); user-select: none;">做出一部堪比《火影忍者》的动漫</span><br>
+现在的梦想是<span style="filter: blur(4px); user-select: none;">平平淡淡的过完一生，愿世界不再流血。</span>
 
-现在的梦想是<span style="filter: blur(4px);user-select:none;">平平淡淡的过完一生，愿世界不再流血。</span>
+
+
+
 
 
 

@@ -88,7 +88,7 @@ defineProps<{
 /* ========== 链接条 ========== */
 .link-bar {
   display: flex;
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   align-items: center;
   justify-content: space-between;
   /* ========== 标题 ========== */

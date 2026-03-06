@@ -41,8 +41,8 @@ const projects = [
     name: '深选-SiftDeep',
     desc: '高质量视频推荐网站，采用 monorepo、Next.js 和 Nest.js 技术栈。',
     badge: {
-      type: 'danger',
-      text: '暂停中',
+      type: 'tip',
+      text: '开发中',
     },
     links: {
       icon: 'gitee',
@@ -77,15 +77,15 @@ const projects = [
     tags: ['Dart', 'Flutter'],
   },
   {
-    name: '自由视频-FreePlayer',
-    desc: '一个用于入阶的 Flutter 项目，实现了一个免费的视频播放器。',
+    name: '狐狸视频-FoxPlayer',
+    desc: '基于 flutter 构建的网络视频播放器，用于练习 flutter 和 signal.dart 的项目。',
     badge: {
       type: 'tip',
-      text: 'v1.0.0-alpha',
+      text: 'v1.0.0-beta',
     },
     links: {
       icon: 'gitee',
-      url: 'https://gitee.com/zs2084035767/free_player_app',
+      url: 'https://gitee.com/zs2084035767/fox_player_app',
     },
     tags: ['Dart', 'Flutter', 'Signal.dart'],
   },
