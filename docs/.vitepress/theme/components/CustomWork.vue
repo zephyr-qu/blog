@@ -81,7 +81,7 @@ const projects = [
     desc: '基于 flutter 构建的网络视频播放器，用于练习 flutter 和 signal.dart 的项目。',
     badge: {
       type: 'tip',
-      text: 'v1.0.0-beta',
+      text: 'v1.0.0',
     },
     links: {
       icon: 'gitee',
