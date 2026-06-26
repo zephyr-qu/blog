@@ -13,12 +13,14 @@
   },
   "devDependencies": {
     "@types/dom-view-transitions": "^1.0.6",
-    "sass": "^1.90.0",
+    "mermaid": "^11.15.0",
+    "sass": "^1.100.0",
     "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17",
     "vitepress-plugin-rss": "^0.3.1",
     "vitepress-plugin-tabs": "^0.7.1",
-    "vitepress-sidebar": "^1.33.0",
-    "vue": "^3.5.18"
+    "vitepress-sidebar": "^1.36.1",
+    "vue": "^3.5.35"
   },
   "dependencies": {
     "markdown-it-container": "^4.0.0",

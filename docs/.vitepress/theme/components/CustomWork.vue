@@ -28,8 +28,8 @@ const projects = [
     name: '在线简历-OnlineR',
     desc: '极简、响应式的「个人介绍 + 简历」页面，100% 纯前端，零后端依赖。',
     badge: {
-      type: 'tip',
-      text: '维护中',
+      type: 'info',
+      text: '已存档',
     },
     links: {
       icon: 'gitee',
@@ -41,8 +41,8 @@ const projects = [
     name: '深选-SiftDeep',
     desc: '高质量视频推荐网站，采用 monorepo、Next.js 和 Nest.js 技术栈。',
     badge: {
-      type: 'tip',
-      text: '开发中',
+      type: 'warning',
+      text: '暂停中',
     },
     links: {
       icon: 'gitee',

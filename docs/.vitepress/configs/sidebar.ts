@@ -16,6 +16,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = generateSidebar([
     scanStartPath: 'design-pattern',
     resolvePath: '/design-pattern/',
     excludePattern: ['img'],
+    collapsed: true,
     sortMenusByFrontmatterOrder: true,
     useTitleFromFrontmatter: true,
   },

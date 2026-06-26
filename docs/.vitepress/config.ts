@@ -1,8 +1,8 @@
 import container from 'markdown-it-container'
 import { defineConfig } from 'vitepress'
+import { MermaidMarkdown } from 'vitepress-plugin-mermaid'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { head, themeConfig, vite } from './configs'
-
 export default defineConfig({
   // outDir: '../dist',
   // base: '/',
@@ -15,12 +15,12 @@ export default defineConfig({
   lastUpdated: true,
   markdown: {
     lineNumbers: false,
-    math: true,
     image: {
       // 默认禁用图片懒加载
       lazyLoading: false,
     },
     config: md => {
+      md.use(MermaidMarkdown),
         md.use(tabsMarkdownPlugin),
         md.use(container, 'steps', {
           render(tokens, idx) {

@@ -1,3 +1,4 @@
+import { MermaidPlugin } from "vitepress-plugin-mermaid"
 import { RssPlugin } from 'vitepress-plugin-rss'
 export const vite = {
   css: {
@@ -8,6 +9,7 @@ export const vite = {
     },
   },
   plugins: [
+    MermaidPlugin(),
     RssPlugin({
       title: '为自由献诗',
       copyright: `Copyright © 2021-${new Date().getFullYear()} 子十`,
@@ -22,6 +24,12 @@ export const vite = {
       filter: page => page.filepath.includes('/post/'),
     }),
   ],
+  optimizeDeps: {
+    include: ['mermaid'],
+  },
+  ssr: {
+    noExternal: ['mermaid'],
+  },
 
 }
 

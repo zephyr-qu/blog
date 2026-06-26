@@ -9,6 +9,8 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'baidu-site-verification', content: 'codeva-Whjnr38WFE' }],
   ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }],
   ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#3eaf7c' }],
+  ['link', { rel: 'preload', href: 'https://cdn.jsdelivr.net/npm/lucide-static/font/lucide.woff2', as: "font", type: "font/woff2", crossorigin: "anonymous" }],
   // ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+  ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/lucide-static/font/lucide.css' }],
   ['link', { rel: 'icon', href: '/favicon.ico' }],
 ]

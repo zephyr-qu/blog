@@ -76,10 +76,10 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 <Badge type="info" text="unocss" />
 <Badge type="info" text="tailwindcss" />
 <Badge type="info" text="vue" />
-<Badge type="info" text="react" />
+<Badge type="info" text="react" /> 
 <Badge type="info" text="vite" />
 
-⚙️ **后端**
+🧱  **后端**
 <Badge type="info" text="c" />
 <Badge type="info" text="python" />
 <Badge type="info" text="java" />
