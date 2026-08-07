@@ -6,23 +6,39 @@
 
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import Typewriter from 'typewriter-effect/dist/core';
-onMounted(() => {
-const heroEl = document.querySelector<HTMLElement>('#me')!
- const originalText = heroEl.textContent || '' 
- heroEl.textContent = '' 
- new Typewriter(heroEl, {
-  delay: 60,
-  cursor: '◀',
-  loop: true,
- })
-  .typeString(originalText)
-  .pauseFor(2000) 
-  .deleteAll(30) 
-  .pauseFor(1000) 
-  .start() 
-})</script>
 
+onMounted(async () => {
+  try {
+    // 动态导入库，只会在客户端执行
+    const module = await import('typewriter-effect/dist/core')
+    const Typewriter = module.default
+
+    const heroEl = document.querySelector<HTMLElement>('#me')
+    if (!heroEl) return
+
+    const originalText = heroEl.textContent || ''
+    heroEl.textContent = ''
+
+    new Typewriter(heroEl, {
+      delay: 60,
+      cursor: '◀',
+      loop: true,
+    })
+      .typeString(originalText)
+      .pauseFor(2000)
+      .deleteAll(30)
+      .pauseFor(1000)
+      .start()
+  } catch (error) {
+    console.warn('打字机效果加载失败:', error)
+    // 失败时回退显示原文本（可选）
+    const heroEl = document.querySelector<HTMLElement>('#me')
+    if (heroEl) {
+      heroEl.textContent = heroEl.dataset.originalText || ''
+    }
+  }
+})
+</script>
 
 > 虽然不喜欢贴标签，但这里还是贴上吧，为了方便他人快速了解我。**或者你不必了解我**🤔。
 
@@ -34,10 +50,7 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 <Badge type="warning" text="思考&好奇&探索" />
 <Badge type="tip" text="阅读&写作&听歌&编程&骑行&番剧" />
 
-
-
 ## 关于博客
-
 
 :::tip 版权声明
 
@@ -49,8 +62,6 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 
 在此开设博客的目的是：“**在平凡的 ~~大学~~ 生活中，记录下来我不起眼的故事与经历。**”
 
-
-
 ## 社交网络
 
 > 有共同兴趣，乐于学习、思考或探索的小伙伴可加企鹅，**一起学习，共同进步**🤪。
@@ -59,8 +70,6 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 
 企鹅🐧:<Badge type="tip" text="2084035767" />&nbsp;
 邮箱📫:<Badge type="tip" text="jiangtzs@foxmail.com" />
-
-
 
 ## 探索技能
 
@@ -76,10 +85,10 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 <Badge type="info" text="unocss" />
 <Badge type="info" text="tailwindcss" />
 <Badge type="info" text="vue" />
-<Badge type="info" text="react" /> 
+<Badge type="info" text="react" />
 <Badge type="info" text="vite" />
 
-🧱  **后端**
+🧱 **后端**
 <Badge type="info" text="c" />
 <Badge type="info" text="python" />
 <Badge type="info" text="java" />
@@ -111,18 +120,9 @@ const heroEl = document.querySelector<HTMLElement>('#me')!
 <Badge type="info" text="vscode" />
 <Badge type="info" text="cursor" />
 
-
-
 ## 我的梦想
 
 > 梦想甚远，希望渺茫。
 
 小时候梦想是<span style="filter: blur(4px); user-select: none;">做出一部堪比《火影忍者》的动漫</span><br>
 现在的梦想是<span style="filter: blur(4px); user-select: none;">平平淡淡的过完一生，愿世界不再流血。</span>
-
-
-
-
-
-
-

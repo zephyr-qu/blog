@@ -1,7 +1,7 @@
 ---
 title: 设计模式| 设计模式
 date: 2026-1-1
-order: 1
+order: 0
 ---
 
 
