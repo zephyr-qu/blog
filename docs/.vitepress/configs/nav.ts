@@ -8,6 +8,11 @@ export const nav: DefaultTheme.Config['nav'] = [
     link: '/design-pattern/',
     activeMatch: '^/design-pattern/',
   },
+   {
+    text: '星星之火',
+    link: '/spark/',
+    activeMatch: '^/spark/',
+  },
   // {
   //   text: '编程',
   //   items: [

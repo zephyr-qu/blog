@@ -22,8 +22,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = generateSidebar([
   },
   {
     documentRootPath: '/docs',
-    scanStartPath: 'weekly',
-    resolvePath: '/weekly/',
+    scanStartPath: 'spark',
+    resolvePath: '/spark/',
     excludePattern: ['img'],
     // sortMenusByFrontmatterOrder: true,
     useTitleFromFrontmatter: true,

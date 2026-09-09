@@ -7,9 +7,8 @@
   "scripts": {
     "dev": "vitepress dev docs --port=8732",
     "build": "vitepress build docs",
-    "commit": "nu ./script/commit.nu",
-    "new": "nu ./script/new-weekly.nu",
-    "upload": "powershell -ExecutionPolicy Bypass -File ./script/upload.ps1"
+    "commit": "pi -p --no-extensions --no-skills --no-themes --tools read,bash \"分析当前 git 变更，生成符合 Conventional Commits 规范的提交信息，然后执行 git add、commit 并推送到远程仓库\"",
+    "new": "nu ./script/new-weekly.nu"
   },
   "devDependencies": {
     "@types/dom-view-transitions": "^1.0.6",
