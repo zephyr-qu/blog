@@ -12,13 +12,13 @@
   },
   "devDependencies": {
     "@types/dom-view-transitions": "^1.0.6",
-    "sass": "^1.102.0",
+    "sass": "^1.104.1",
     "vitepress": "^1.6.4",
     "vitepress-plugin-responsive-images": "^0.3.4",
-    "vitepress-plugin-rss": "^0.3.1",
-    "vitepress-plugin-tabs": "^0.7.1",
-    "vitepress-sidebar": "^1.38.0",
-    "vue": "^3.5.41"
+    "vitepress-plugin-rss": "^0.3.4",
+    "vitepress-plugin-tabs": "^0.7.3",
+    "vitepress-sidebar": "^1.40.0",
+    "vue": "^3.5.43"
   },
   "dependencies": {
     "markdown-it-container": "^4.0.0",

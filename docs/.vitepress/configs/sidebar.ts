@@ -28,6 +28,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = generateSidebar([
     // sortMenusByFrontmatterOrder: true,
     useTitleFromFrontmatter: true,
   },
+  {
+    documentRootPath: '/docs',
+    scanStartPath: 'weekly',
+    resolvePath: '/weekly/',
+    excludePattern: ['img'],
+    // sortMenusByFrontmatterOrder: true,
+    useTitleFromFrontmatter: true,
+  },
   // {
   //   documentRootPath: '/docs',
   //   scanStartPath: 'base',
