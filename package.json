@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@types/dom-view-transitions": "^1.0.6",
-    "sass": "^1.104.1",
+    "sass": "^1.105.1",
     "vitepress": "^1.6.4",
     "vitepress-plugin-responsive-images": "^0.3.4",
     "vitepress-plugin-rss": "^0.3.4",
