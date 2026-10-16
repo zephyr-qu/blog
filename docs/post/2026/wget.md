@@ -5,7 +5,7 @@ categories:
   - 编程知识
 tags:
   - 命令行
-order: 9
+order: 12
 ---
 
 # Wget 简明使用
