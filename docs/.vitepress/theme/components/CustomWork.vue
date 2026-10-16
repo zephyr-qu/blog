@@ -38,6 +38,19 @@ const projects = [
     tags: ['React', 'Vite', 'TypeScript'],
   },
   {
+    name: '审查助手-auditHelper',
+    desc: '在审核页面高亮违规关键词，按处置档位分类审查，辅助快速识别合规风险。',
+    badge: {
+      type: 'info',
+      text: '已存档',
+    },
+    links: {
+      icon: 'gitee',
+      url: 'https://gitee.com/zs2084035767/audit-helper.git',
+    },
+    tags: ['Vue', 'Vite', 'TypeScript'],
+  },
+  {
     name: '深选-SiftDeep',
     desc: '高质量视频推荐网站，采用 monorepo、Next.js 和 Nest.js 技术栈。',
     badge: {
@@ -88,6 +101,19 @@ const projects = [
       url: 'https://gitee.com/zs2084035767/fox_player_app',
     },
     tags: ['Dart', 'Flutter', 'Signal.dart'],
+  },
+  {
+    name: '简-Kanso',
+    desc: '个人自用的小型看板项目管理工具：Go 后端 + React 前端 + SQLite 单机存储，单端口运行',
+    badge: {
+      type: 'tip',
+      text: 'v0.5.1',
+    },
+    links: {
+      icon: 'gitee',
+      url: 'https://gitee.com/zs2084035767/kanso.git',
+    },
+    tags: ['Go', 'React', 'SQLite'],
   },
 ]
 </script>
