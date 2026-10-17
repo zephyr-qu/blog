@@ -2,7 +2,7 @@
 
 ### 嗨！👋🏻，我是子十
 
-一位 ~~在读大学生~~， ~~毕业生~~，后端开发，`<Developer/>`。<span id="me">困于山林，难攀高峰。</span>
+一位 ~~在读大学生~~，~~毕业生~~，后端开发，`<Developer/>`。<span id="me">困于山林，难攀高峰。</span>
 
 <script setup lang="ts">
 import { onMounted } from 'vue'
@@ -15,10 +15,10 @@ onMounted(async () => {
 
     const heroEl = document.querySelector<HTMLElement>('#me')
     if (!heroEl) return
-
+    
     const originalText = heroEl.textContent || ''
     heroEl.textContent = ''
-
+    
     new Typewriter(heroEl, {
       delay: 60,
       cursor: '◀',
@@ -45,7 +45,7 @@ onMounted(async () => {
 <Badge type="tip" text="INTJ" />
 <Badge type="danger" text="PESSIMIST" />
 <Badge type="warning" text="NARUTO" />
-<Badge type="tip" text="BORING" />
+<Badge type="tip" text="VIBE CODING" />
 <Badge type="danger" text="余华&史铁生" />
 <Badge type="warning" text="思考&好奇&探索" />
 <Badge type="tip" text="阅读&写作&听歌&编程&骑行&番剧" />
@@ -75,7 +75,7 @@ onMounted(async () => {
 
 > 仅代表**学习过**😋
 
-🌐 **前端**
+<svg class="skill-cat-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.75" y="4.25" width="18.5" height="15.5" rx="2.5"/><path d="M2.75 8.25h18.5"/><path d="M5.6 6.25h.01M7.85 6.25h.01"/><path d="M9.5 12.9l-1.7 1.7 1.7 1.7"/><path d="M14.5 12.9l1.7 1.7-1.7 1.7"/><path d="M13.1 12.3l-2.2 5"/></svg> **前端**
 <Badge type="info" text="html" />
 <Badge type="info" text="css" />
 <Badge type="info" text="javascript" />
@@ -88,7 +88,7 @@ onMounted(async () => {
 <Badge type="info" text="react" />
 <Badge type="info" text="vite" />
 
-🧱 **后端**
+<svg class="skill-cat-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3.75" width="18" height="7" rx="2"/><rect x="3" y="13.25" width="18" height="7" rx="2"/><path d="M6.6 7.25h.01M6.6 16.75h.01"/><path d="M10.4 7.25H16M10.4 16.75H16"/></svg> **后端**
 <Badge type="info" text="c" />
 <Badge type="info" text="python" />
 <Badge type="info" text="java" />
@@ -101,13 +101,26 @@ onMounted(async () => {
 <Badge type="info" text="redis" />
 <Badge type="info" text="rabbitmq" />
 
-💻**客户端**
+<svg class="skill-cat-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.75" y="2.5" width="10.5" height="19" rx="3"/><path d="M10.6 5.2h2.8"/><path d="M10.6 18.8h2.8"/></svg> **客户端**
 
 <Badge type="info" text="uniapp" />
 <Badge type="info" text="dart" />
 <Badge type="info" text="flutter" />
 
-🛠️ **其他**
+<svg class="skill-cat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 8Q10 12 14 12Q10 12 10 16Q10 12 6 12Q10 12 10 8Z"/><path d="M17.75 4.5Q17.75 6.75 20 6.75Q17.75 6.75 17.75 9Q17.75 6.75 15.5 6.75Q17.75 6.75 17.75 4.5Z"/></svg> **AI**
+<Badge type="info" text="cursor" />
+<Badge type="info" text="pi agent" />
+<Badge type="info" text="claude" />
+<Badge type="info" text="codex" />
+<Badge type="info" text="opencode" />
+<Badge type="info" text="copilot" />
+<Badge type="info" text="deepseek" />
+<Badge type="info" text="ollama" />
+<Badge type="info" text="dify" />
+<Badge type="info" text="langchain" />
+<Badge type="info" text="mcp" />
+
+<svg class="skill-cat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> **其他**
 <Badge type="info" text="lua" />
 <Badge type="info" text="bash" />
 <Badge type="info" text="git" />
@@ -118,7 +131,6 @@ onMounted(async () => {
 <Badge type="info" text="figma" />
 <Badge type="info" text="nginx" />
 <Badge type="info" text="vscode" />
-<Badge type="info" text="cursor" />
 
 ## 我的梦想
 

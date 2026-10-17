@@ -101,6 +101,20 @@
     border-radius: 6px;
   }
 
+  // 「探索技能」分类图标（内联 SVG）
+  .skill-cat-icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.35em;
+    vertical-align: -0.22em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
   // 表格样式调整
   table {
     width: 100%;
