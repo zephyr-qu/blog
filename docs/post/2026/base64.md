@@ -46,20 +46,7 @@ Base64的核心目标是**将二进制数据转换为纯文本**，以便在仅�
 
 如下图所示
 
-```mermaid
-graph LR
-    Start([开始]) --> Input[输入: Man]
-    Input --> Hex[Hex: 4D 61 6E]
-    Hex --> Bin[24位二进制<br/>01001101 01100001 01101110]
-    Bin --> Split[重分为4组6位<br/>010011 010110 000101 101110]
-    Split --> Dec[十进制索引<br/>19 &nbsp; 22 &nbsp; 5 &nbsp; 46]
-    Dec --> Map[查表映射<br/>T &nbsp; W &nbsp; F &nbsp; u]
-    Map --> Result([输出: TWFu])
-
-    style Start fill:#e1f5fe,stroke:#01579b
-    style Result fill:#c8e6c9,stroke:#2e7d32
-    style Split fill:#fff9c4,stroke:#fbc02d
-```
+![base64-man-twfu.webp](<https://img.remit.ee/i/fV1UDw8jgcUX>)
 
 
 
